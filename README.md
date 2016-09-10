@@ -6,3 +6,8 @@ En este repositorio encontrarás las clases de Hack Institute, hay un branch par
 ### Ligas a las presentaciones 
 
 - [Clase 1](https://docs.google.com/presentation/d/1v_7eDM7EDjgsiihYF9pTnt7itbQ40BjOrX99qm4F-7Q/edit?usp=sharing)
+
+
+### Ligas de interés
+
+- [Flujo de datos en Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html)
