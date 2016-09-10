@@ -5,4 +5,4 @@ En este repositorio encontrarás las clases de Hack Institute, hay un branch par
 
 ### Ligas a las presentaciones 
 
--[Clase 1](https://docs.google.com/presentation/d/1v_7eDM7EDjgsiihYF9pTnt7itbQ40BjOrX99qm4F-7Q/edit?usp=sharing)
+- [Clase 1](https://docs.google.com/presentation/d/1v_7eDM7EDjgsiihYF9pTnt7itbQ40BjOrX99qm4F-7Q/edit?usp=sharing)
