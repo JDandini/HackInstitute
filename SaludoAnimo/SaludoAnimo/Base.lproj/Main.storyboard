@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -42,20 +43,50 @@
                                 <state key="normal" title="Enviar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cce-gV-Zio"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saludos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4g-1i-qPE">
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ánimo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcE-xx-VOp">
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWL-Ln-rRf">
+                                <color key="tintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="share"/>
+                                <connections>
+                                    <action selector="sharePressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BMf-3d-IY1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="HI0-es-U9x" firstAttribute="top" secondItem="I4g-1i-qPE" secondAttribute="bottom" constant="8" symbolic="YES" id="8rZ-BB-6ug"/>
+                            <constraint firstItem="AcE-xx-VOp" firstAttribute="leading" secondItem="I4g-1i-qPE" secondAttribute="trailing" constant="1" id="9mj-De-n6r"/>
+                            <constraint firstItem="I4g-1i-qPE" firstAttribute="firstBaseline" secondItem="AcE-xx-VOp" secondAttribute="firstBaseline" id="EVx-bh-cMf"/>
                             <constraint firstItem="HI0-es-U9x" firstAttribute="leading" secondItem="Cgy-u6-Q1S" secondAttribute="leading" id="G85-W1-M9Q"/>
                             <constraint firstItem="HI0-es-U9x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="NO0-PH-hya"/>
                             <constraint firstItem="HI0-es-U9x" firstAttribute="trailing" secondItem="Cgy-u6-Q1S" secondAttribute="trailing" id="Ozl-Oy-goF"/>
+                            <constraint firstItem="AcE-xx-VOp" firstAttribute="width" secondItem="I4g-1i-qPE" secondAttribute="width" id="TmQ-3Y-Z8V"/>
                             <constraint firstItem="Sjp-ci-oLd" firstAttribute="top" secondItem="Cgy-u6-Q1S" secondAttribute="bottom" constant="24" id="dU4-nh-TQn"/>
                             <constraint firstItem="HI0-es-U9x" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="eOK-kY-KgE"/>
                             <constraint firstItem="Cgy-u6-Q1S" firstAttribute="top" secondItem="HI0-es-U9x" secondAttribute="bottom" constant="51" id="eea-bp-tL7"/>
                             <constraint firstItem="Cgy-u6-Q1S" firstAttribute="trailing" secondItem="Sjp-ci-oLd" secondAttribute="trailing" id="fq6-bF-D5Z"/>
-                            <constraint firstItem="Cgy-u6-Q1S" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sR1-sb-R9q"/>
+                            <constraint firstItem="hWL-Ln-rRf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="mMP-ru-ZN1"/>
+                            <constraint firstItem="I4g-1i-qPE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="74" id="nZp-PV-eL5"/>
+                            <constraint firstItem="AcE-xx-VOp" firstAttribute="trailing" secondItem="HI0-es-U9x" secondAttribute="trailing" id="qlH-0Z-VS1"/>
+                            <constraint firstItem="I4g-1i-qPE" firstAttribute="leading" secondItem="HI0-es-U9x" secondAttribute="leading" id="rRA-zh-LYB"/>
+                            <constraint firstItem="Cgy-u6-Q1S" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="66" id="sR1-sb-R9q"/>
                             <constraint firstItem="Cgy-u6-Q1S" firstAttribute="leading" secondItem="Sjp-ci-oLd" secondAttribute="leading" id="sZX-6Z-fv9"/>
-                            <constraint firstItem="HI0-es-U9x" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="49" id="vd4-9b-jwl"/>
+                            <constraint firstItem="hWL-Ln-rRf" firstAttribute="trailing" secondItem="AcE-xx-VOp" secondAttribute="trailing" id="tq2-ke-MNS"/>
+                            <constraint firstItem="HI0-es-U9x" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="115" id="vd4-9b-jwl"/>
+                            <constraint firstItem="I4g-1i-qPE" firstAttribute="baseline" secondItem="AcE-xx-VOp" secondAttribute="baseline" id="xC6-hi-626"/>
                         </constraints>
                     </view>
                     <connections>
@@ -66,7 +97,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-295" y="83"/>
+            <point key="canvasLocation" x="-295.19999999999999" y="82.3088455772114"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="share" width="50" height="50"/>
+    </resources>
 </document>

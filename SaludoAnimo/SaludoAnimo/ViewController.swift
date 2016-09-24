@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     var moodStateArray:[String]!
     var greetingsArray:[String]!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +35,44 @@ class ViewController: UIViewController {
     //Metodo para quitar el teclado
      func closeKeyboard(){
         tfAdditionalComment.resignFirstResponder()
+    }
+    //MARK: IBActions
+    @IBAction func sendPressed(sender:UIButton){
+        self.closeKeyboard()
+        //Crear mensaje
+        var finalText = ""
+        let greeting = greetingsArray[pvGreetingState.selectedRow(inComponent: 0)]
+        let mood = moodStateArray[pvGreetingState.selectedRow(inComponent: 1)]
+        finalText = greeting + " hoy me siento " +  mood
+        // es lo mismo que finalText = finalText + " \(tfAdditionalComment.text!)"
+        finalText += " \(tfAdditionalComment.text!)"
+        //crear alerta
+        let alert = UIAlertController(title: "Hola", message: finalText, preferredStyle: .alert)
+        //Creando accion del alert
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        //agregando accion al alert
+        alert.addAction(okAction)
+        //mostrando la alerta
+        self.present(alert, animated: true, completion: nil)
+    }
+    @IBAction func sharePressed(sender:UIButton){
+        self.closeKeyboard()
+        var finalText = ""
+        let greeting = greetingsArray[pvGreetingState.selectedRow(inComponent: 0)]
+        let mood = moodStateArray[pvGreetingState.selectedRow(inComponent: 1)]
+        finalText = greeting + " hoy me siento " +  mood
+        //Compartir en redes sociales
+        let shareImage = UIImage(named: "share")
+        let shareSocial = UIActivityViewController(activityItems: [finalText,shareImage!], applicationActivities: [])
+        let excludedActivities =  [UIActivityType.airDrop,
+                                   UIActivityType.print,
+                                   UIActivityType.assignToContact,
+                                   UIActivityType.saveToCameraRoll,
+                                   UIActivityType.addToReadingList,
+                                   UIActivityType.postToFlickr,
+                                   UIActivityType.postToVimeo]
+        shareSocial.excludedActivityTypes = excludedActivities
+        self.present(shareSocial, animated: true, completion: nil)
     }
 }
 //MARK:- UIPickerViewDataSource,UIPickerViewDelegate Methods
