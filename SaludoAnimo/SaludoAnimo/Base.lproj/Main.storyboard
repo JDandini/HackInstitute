@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SaludoAnimo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +18,55 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HI0-es-U9x">
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="CBc-WK-wGn"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="SJk-md-qr4"/>
+                                </connections>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe algo adicional" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cgy-u6-Q1S">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="fpL-Z6-Mft"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sjp-ci-oLd">
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="BNb-IG-EeO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Enviar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HI0-es-U9x" firstAttribute="leading" secondItem="Cgy-u6-Q1S" secondAttribute="leading" id="G85-W1-M9Q"/>
+                            <constraint firstItem="HI0-es-U9x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="NO0-PH-hya"/>
+                            <constraint firstItem="HI0-es-U9x" firstAttribute="trailing" secondItem="Cgy-u6-Q1S" secondAttribute="trailing" id="Ozl-Oy-goF"/>
+                            <constraint firstItem="Sjp-ci-oLd" firstAttribute="top" secondItem="Cgy-u6-Q1S" secondAttribute="bottom" constant="24" id="dU4-nh-TQn"/>
+                            <constraint firstItem="HI0-es-U9x" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="eOK-kY-KgE"/>
+                            <constraint firstItem="Cgy-u6-Q1S" firstAttribute="top" secondItem="HI0-es-U9x" secondAttribute="bottom" constant="51" id="eea-bp-tL7"/>
+                            <constraint firstItem="Cgy-u6-Q1S" firstAttribute="trailing" secondItem="Sjp-ci-oLd" secondAttribute="trailing" id="fq6-bF-D5Z"/>
+                            <constraint firstItem="Cgy-u6-Q1S" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sR1-sb-R9q"/>
+                            <constraint firstItem="Cgy-u6-Q1S" firstAttribute="leading" secondItem="Sjp-ci-oLd" secondAttribute="leading" id="sZX-6Z-fv9"/>
+                            <constraint firstItem="HI0-es-U9x" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="49" id="vd4-9b-jwl"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnSend" destination="Sjp-ci-oLd" id="P4q-Ei-iOo"/>
+                        <outlet property="pvGreetingState" destination="HI0-es-U9x" id="Pew-ps-gbo"/>
+                        <outlet property="tfAdditionalComment" destination="Cgy-u6-Q1S" id="FIR-pe-k8f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-295" y="83"/>
         </scene>
     </scenes>
 </document>
