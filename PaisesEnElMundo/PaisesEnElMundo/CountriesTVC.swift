@@ -16,6 +16,7 @@ class CountriesTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Paises"
         countriesArray = []
         // Creación de instancia de objeto de connexiones
         KVNProgress.show()
@@ -39,6 +40,12 @@ class CountriesTVC: UITableViewController {
                 }
                 self.tableView.reloadData()
                 KVNProgress.showSuccess(withStatus: "¡Exito!")
+            }else if let e = error{
+                KVNProgress.dismiss()
+                let alertError = UIAlertController(title: "OH NO!", message: e.localizedDescription, preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alertError.addAction(okAction)
+                self.present(alertError, animated: true, completion: nil)
             }
         }
     }

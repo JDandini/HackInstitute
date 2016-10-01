@@ -51,24 +51,98 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNF-9B-O1N">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estoy en Pais" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNF-9B-O1N">
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0IU-0w-RKg">
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30.5" id="G1Z-Mv-Phe"/>
+                                    <constraint firstAttribute="width" constant="30" id="VhR-Ph-5v2"/>
+                                    <constraint firstAttribute="height" constant="30" id="Xjo-lu-5ZN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="25"/>
-                                <nil key="textColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Area" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="su4-1A-tKz">
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fhR-NA-key">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KTc-TP-TVC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label population" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgp-vT-N2V">
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hY1-Fe-Yss">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hnB-40-DsF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Capital" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1E-YV-cVz">
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XTa-Y0-Hoy">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mzv-sE-91g"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currencies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJA-Tf-5kW">
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstItem="sNF-9B-O1N" firstAttribute="trailing" secondItem="gzC-PP-n1B" secondAttribute="trailingMargin" id="CRX-NU-oVd"/>
-                            <constraint firstItem="sNF-9B-O1N" firstAttribute="leading" secondItem="gzC-PP-n1B" secondAttribute="leadingMargin" id="ZU4-lz-V9v"/>
-                            <constraint firstItem="sNF-9B-O1N" firstAttribute="top" secondItem="fcG-13-YZ8" secondAttribute="bottom" constant="130" id="fWC-NW-m5o"/>
+                            <constraint firstItem="sNF-9B-O1N" firstAttribute="leading" secondItem="gzC-PP-n1B" secondAttribute="leadingMargin" id="5Ry-09-L4F"/>
+                            <constraint firstItem="XTa-Y0-Hoy" firstAttribute="bottom" secondItem="wJA-Tf-5kW" secondAttribute="bottom" id="7ND-sq-0dY"/>
+                            <constraint firstItem="XTa-Y0-Hoy" firstAttribute="top" secondItem="hY1-Fe-Yss" secondAttribute="bottom" constant="8" symbolic="YES" id="7Vd-cZ-JNj"/>
+                            <constraint firstItem="su4-1A-tKz" firstAttribute="leading" secondItem="Xgp-vT-N2V" secondAttribute="leading" id="7Yn-jd-jC2"/>
+                            <constraint firstItem="hY1-Fe-Yss" firstAttribute="top" secondItem="i1E-YV-cVz" secondAttribute="top" id="95n-iv-lo4"/>
+                            <constraint firstItem="sNF-9B-O1N" firstAttribute="top" secondItem="fcG-13-YZ8" secondAttribute="bottom" constant="20" id="AI1-bp-V8D"/>
+                            <constraint firstItem="i1E-YV-cVz" firstAttribute="leading" secondItem="wJA-Tf-5kW" secondAttribute="leading" id="E9W-AV-Oih"/>
+                            <constraint firstItem="0IU-0w-RKg" firstAttribute="leading" secondItem="fhR-NA-key" secondAttribute="leading" id="LLz-RD-dOh"/>
+                            <constraint firstItem="fhR-NA-key" firstAttribute="leading" secondItem="hY1-Fe-Yss" secondAttribute="leading" id="NEl-Sf-PTP"/>
+                            <constraint firstItem="0IU-0w-RKg" firstAttribute="top" secondItem="su4-1A-tKz" secondAttribute="top" id="Odb-DZ-2DC"/>
+                            <constraint firstItem="0IU-0w-RKg" firstAttribute="top" secondItem="sNF-9B-O1N" secondAttribute="bottom" constant="8" symbolic="YES" id="Of3-Of-ezd"/>
+                            <constraint firstItem="Xgp-vT-N2V" firstAttribute="trailing" secondItem="i1E-YV-cVz" secondAttribute="trailing" id="P1z-U9-WBN"/>
+                            <constraint firstItem="fhR-NA-key" firstAttribute="top" secondItem="0IU-0w-RKg" secondAttribute="bottom" constant="8" symbolic="YES" id="Se3-SS-lYB"/>
+                            <constraint firstItem="Xgp-vT-N2V" firstAttribute="top" secondItem="su4-1A-tKz" secondAttribute="bottom" constant="8" symbolic="YES" id="WSA-pB-rxH"/>
+                            <constraint firstItem="i1E-YV-cVz" firstAttribute="trailing" secondItem="wJA-Tf-5kW" secondAttribute="trailing" id="Y1H-DG-3w9"/>
+                            <constraint firstItem="hY1-Fe-Yss" firstAttribute="leading" secondItem="XTa-Y0-Hoy" secondAttribute="leading" id="aaq-0a-5Ve"/>
+                            <constraint firstItem="wJA-Tf-5kW" firstAttribute="top" secondItem="i1E-YV-cVz" secondAttribute="bottom" constant="8" symbolic="YES" id="eaY-bj-vzd"/>
+                            <constraint firstItem="sNF-9B-O1N" firstAttribute="trailing" secondItem="gzC-PP-n1B" secondAttribute="trailingMargin" id="ebO-0S-UxT"/>
+                            <constraint firstItem="fhR-NA-key" firstAttribute="trailing" secondItem="hY1-Fe-Yss" secondAttribute="trailing" id="fcE-va-rWw"/>
+                            <constraint firstItem="mvK-Fr-tUU" firstAttribute="top" secondItem="XTa-Y0-Hoy" secondAttribute="bottom" constant="338" id="iiP-7j-xmh"/>
+                            <constraint firstItem="0IU-0w-RKg" firstAttribute="trailing" secondItem="fhR-NA-key" secondAttribute="trailing" id="iwa-QV-POk"/>
+                            <constraint firstItem="fhR-NA-key" firstAttribute="top" secondItem="Xgp-vT-N2V" secondAttribute="top" id="kFy-1k-IZU"/>
+                            <constraint firstItem="su4-1A-tKz" firstAttribute="trailing" secondItem="Xgp-vT-N2V" secondAttribute="trailing" id="q0h-c4-LHd"/>
+                            <constraint firstItem="sNF-9B-O1N" firstAttribute="trailing" secondItem="su4-1A-tKz" secondAttribute="trailing" id="ue3-tM-Ze4"/>
+                            <constraint firstItem="su4-1A-tKz" firstAttribute="leading" secondItem="0IU-0w-RKg" secondAttribute="trailing" constant="15" id="v5E-tS-qep"/>
+                            <constraint firstItem="hY1-Fe-Yss" firstAttribute="trailing" secondItem="XTa-Y0-Hoy" secondAttribute="trailing" id="vUt-Y7-XcV"/>
+                            <constraint firstItem="Xgp-vT-N2V" firstAttribute="leading" secondItem="i1E-YV-cVz" secondAttribute="leading" id="ws0-7A-dJb"/>
+                            <constraint firstItem="i1E-YV-cVz" firstAttribute="top" secondItem="Xgp-vT-N2V" secondAttribute="bottom" constant="8" symbolic="YES" id="x2z-Op-HMp"/>
+                            <constraint firstItem="hY1-Fe-Yss" firstAttribute="top" secondItem="fhR-NA-key" secondAttribute="bottom" constant="8" symbolic="YES" id="ycr-pd-sga"/>
+                            <constraint firstItem="XTa-Y0-Hoy" firstAttribute="top" secondItem="wJA-Tf-5kW" secondAttribute="top" id="ydj-Ie-tri"/>
+                            <constraint firstItem="sNF-9B-O1N" firstAttribute="leading" secondItem="0IU-0w-RKg" secondAttribute="leading" id="zrg-wf-ltU"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="ivArea" destination="0IU-0w-RKg" id="9Vj-E1-d2y"/>
+                        <outlet property="ivCapital" destination="hY1-Fe-Yss" id="Ep0-sI-Klh"/>
+                        <outlet property="ivCurrency" destination="XTa-Y0-Hoy" id="9Hz-VO-ZD2"/>
+                        <outlet property="ivPopulation" destination="fhR-NA-key" id="kBJ-Y8-8O7"/>
+                        <outlet property="lblArea" destination="su4-1A-tKz" id="cip-3I-tPC"/>
+                        <outlet property="lblCapital" destination="i1E-YV-cVz" id="0Ji-tb-6wy"/>
                         <outlet property="lblCountryName" destination="sNF-9B-O1N" id="vRq-LJ-EG0"/>
+                        <outlet property="lblCurrency" destination="wJA-Tf-5kW" id="RNf-Yk-d8V"/>
+                        <outlet property="lblPopulation" destination="Xgp-vT-N2V" id="MX9-wd-SvQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgc-U7-Zp0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -79,7 +153,7 @@
         <scene sceneID="XW7-8A-Ndu">
             <objects>
                 <navigationController id="VQD-3b-jml" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TB2-yt-nW9">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="TB2-yt-nW9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

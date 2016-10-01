@@ -1,15 +1,30 @@
 PODS:
-  - FontAwesome.swift (0.9.0)
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - FontAwesome.swift (0.11.1)
   - KVNProgress (2.3.1)
 
 DEPENDENCIES:
-  - FontAwesome.swift
+  - Colours
+  - FontAwesome.swift (from `https://github.com/thii/FontAwesome.swift.git`, branch `master`)
   - KVNProgress
 
+EXTERNAL SOURCES:
+  FontAwesome.swift:
+    :branch: master
+    :git: https://github.com/thii/FontAwesome.swift.git
+
+CHECKOUT OPTIONS:
+  FontAwesome.swift:
+    :commit: 22b67f9c8a77a6ebcddedaa7640a62cb8292547f
+    :git: https://github.com/thii/FontAwesome.swift.git
+
 SPEC CHECKSUMS:
-  FontAwesome.swift: 8744c24147e925c61e68d313a2837c7298e2a43f
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  FontAwesome.swift: 9879cd6a1462bf160662d519f7b7474d73bdd1c3
   KVNProgress: 8167b1f19e2758290c0b6143020ed9dcbb0477a1
 
-PODFILE CHECKSUM: 5e2913c144a8499cf7871a12a756900230862069
+PODFILE CHECKSUM: 4cadc089ef43033a8d98d3b6a4f4df19f36ca6c9
 
 COCOAPODS: 1.1.0.rc.2

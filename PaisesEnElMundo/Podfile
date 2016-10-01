@@ -7,5 +7,6 @@ target 'PaisesEnElMundo' do
 
   # Pods for PaisesEnElMundo
   pod 'KVNProgress'
-  pod 'FontAwesome.swift'
+  pod 'FontAwesome.swift', :git => 'https://github.com/thii/FontAwesome.swift.git', :branch => 'master'
+  pod 'Colours'
 end

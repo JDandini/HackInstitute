@@ -7,47 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03EA9CD690A0AF8922F763D945B189F8 /* KVNProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4406FBB6349C0E9F856C23F228213 /* KVNProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09A66CC36C994E9358BDF08D5240355B /* Pods-PaisesEnElMundo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F10691BE897FE9E171B952B5CF89875 /* Pods-PaisesEnElMundo-dummy.m */; };
-		0B8A58FC5E609C30628A10368696F0F6 /* KVNProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B2E487BEFDE97BD8C52603DC0474B3 /* KVNProgress-dummy.m */; };
-		12D1D54665B1EDC301F4E9A900C42DC3 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4233CCA33055CF0E64E053B2D352E8F /* Enum.swift */; };
-		2108B0E033FC9AAC4DC38A1895C83110 /* UIColor+KVNContrast.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFA6A7D96C0B34761F636FB49072FE8 /* UIColor+KVNContrast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27967FFAE1AD1B478141BDE32EF090CF /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA484B872406E047A1DACF64A61212 /* FontAwesomeView.swift */; };
-		3DDE96C1DBE8B94559B5F57A31D4C791 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86C6BE21293D6D22F56449E374BAE5 /* FontAwesome.swift */; };
-		4425752A5B3D56F80BB90E64595A7AA7 /* UIImage+KVNImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 792BDD318572E30F421FAEE5DA296F38 /* UIImage+KVNImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4766AD78C96C4AB23FA5A2CDEF1951E2 /* KVNProgressConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C0F1840D3E72FE99CB0668259A1062 /* KVNProgressConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D491D3D60445C9787BEB1DBFFFB5110 /* UIColor+KVNContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = A74803EE9E5DFDA364343670014631FE /* UIColor+KVNContrast.m */; };
-		4FFA6651790C1B6890BC8AF9BCE67AD4 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2B0E95AEFEC250438177D23149EACEF /* FontAwesome.otf */; };
+		03EA9CD690A0AF8922F763D945B189F8 /* KVNProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D81D6BE495094666972CE4E76C2544C5 /* KVNProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8A58FC5E609C30628A10368696F0F6 /* KVNProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E10089842799088AD2C7593DA4915450 /* KVNProgress-dummy.m */; };
+		12D1D54665B1EDC301F4E9A900C42DC3 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB571B814B38B2BE7467CBACE2F56B0 /* Enum.swift */; };
+		1C462E5DBA2DA5069135D70B4800A42F /* Pods-PaisesEnElMundo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F10691BE897FE9E171B952B5CF89875 /* Pods-PaisesEnElMundo-dummy.m */; };
+		2108B0E033FC9AAC4DC38A1895C83110 /* UIColor+KVNContrast.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F6CCE0AAB022FD30E20DFC58716981 /* UIColor+KVNContrast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F105B34A5DA5D16045EF92F683CF47 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = C955EC64B086CB7B1D7F22D47623E246 /* Colours.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		27967FFAE1AD1B478141BDE32EF090CF /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35CECE5DE2A9AE34FD0D6231A955E3 /* FontAwesomeView.swift */; };
+		3DDE96C1DBE8B94559B5F57A31D4C791 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E5F5D3807B2F6ABB6F9D5D9482897 /* FontAwesome.swift */; };
+		4425752A5B3D56F80BB90E64595A7AA7 /* UIImage+KVNImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = D69A71653DB9C5DC097440E0E197B9B3 /* UIImage+KVNImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45925C81319CA95299F63A4B1D048AAB /* Colours-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 360FBC713C1658CF170EE5F88C6A2F71 /* Colours-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4766AD78C96C4AB23FA5A2CDEF1951E2 /* KVNProgressConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F5CE7C0F8F43F31AD061FCE95851B9 /* KVNProgressConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D491D3D60445C9787BEB1DBFFFB5110 /* UIColor+KVNContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = E7272E0A02DAF2A5B0C4D7875D1A461A /* UIColor+KVNContrast.m */; };
+		4FFA6651790C1B6890BC8AF9BCE67AD4 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4990462F6B710A856B9314622B26563B /* FontAwesome.otf */; };
+		506EC388495B3306186B71B9583F3487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80981835D3318BE4D732C6620F8E91D /* Foundation.framework */; };
 		53D61C7ADDA0D962732C15EC9D74471E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432F44FF41D620C5F6BAFFC078C8D2BC /* UIKit.framework */; };
+		55F6B17FB7D27068BE1E911A5E0CB891 /* Pods-PaisesEnElMundo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A5CA0E950BE000805F4107909E9124 /* Pods-PaisesEnElMundo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6506FD1E05C82BBBECFA0964237AEAF2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9CB03453161ED582A1362FC356BBA5 /* CoreText.framework */; };
-		65D4262299268E9C48C4145A3F88803B /* KVNRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7870FC3C72156CF537406C9289F6353F /* KVNRotationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D4262299268E9C48C4145A3F88803B /* KVNRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBD508D17A5E2DBB836F22272FEF988 /* KVNRotationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BEF9CED97091974E222973F3B075691 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791D709CEE76CD763801F82062C26038 /* QuartzCore.framework */; };
 		6F50E25C8F24B2E6F138200FBC203ECD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFEC8296EDDE53BBF2F915AC48DCF70 /* GLKit.framework */; };
 		8F60935C1607113C4E51565B8F790D73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80981835D3318BE4D732C6620F8E91D /* Foundation.framework */; };
 		913D20100BA370058C9786D5CC99F456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80981835D3318BE4D732C6620F8E91D /* Foundation.framework */; };
-		93C95937D8AA0579D7C1C5C09D65ED7A /* KVNRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8874714B874E6C6119E663E13CDDF14A /* KVNRotationViewController.m */; };
-		977893CD9D5483CEDEC34CC89B83CAA7 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EF3C0FE98DA27F640E13229480B30B3 /* FontAwesome.swift.bundle */; };
-		98040D329D86ED21126968FE381C52D3 /* UIImage+KVNEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B87AA65DD43B522B22D9F22D39668A1 /* UIImage+KVNEmpty.m */; };
-		9B10CE65D16F48588BCAA9E57CCF83CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80981835D3318BE4D732C6620F8E91D /* Foundation.framework */; };
-		9BA89E90D08F82EC682B2BC6622669E0 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 307A5A89E2C9A60780920ED6070F3247 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D5946AB533D51E460822B7297808329 /* KVNProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9188A351094B120CFBF7C126D4FD87 /* KVNProgress.m */; };
-		B07A69C3794D941C2EA88B81F9A8417D /* UIImage+KVNEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1A01E83644E5F88DDF36A9E561CF0E /* UIImage+KVNEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B132429BAE181AFDCDB5EE8F10D0EAAB /* Pods-PaisesEnElMundo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A5CA0E950BE000805F4107909E9124 /* Pods-PaisesEnElMundo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF0F718C9F8E2818B98012CDDA4C6805 /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 329F37855461FD4BB67C46101A109CBE /* FontAwesome.swift-dummy.m */; };
-		D14CDF6E0A7B65C3116F5F8D3AE03D86 /* UIImage+KVNImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5381B0194682EAC96D02CE8763CEDAAB /* UIImage+KVNImageEffects.m */; };
-		D3DB9892178912350E5B1F85BE31658F /* KVNProgressConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5232C85A26809F9D09908F5697F3B69B /* KVNProgressConfiguration.m */; };
-		D53ED592377EF6D41EA0103A0FC683B9 /* KVNProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B11A55DD6EE687F176BB7912F5755CA /* KVNProgressView.xib */; };
-		F19B795704A8C1CCA8B81BEB33354356 /* KVNProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BDD7581313526C40B12F0F7870AEF8 /* KVNProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93C95937D8AA0579D7C1C5C09D65ED7A /* KVNRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1E5AAE9F2881A73141324D63A40823 /* KVNRotationViewController.m */; };
+		977893CD9D5483CEDEC34CC89B83CAA7 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50ABA99C72D9344056AE237F0D5B02A6 /* FontAwesome.swift.bundle */; };
+		98040D329D86ED21126968FE381C52D3 /* UIImage+KVNEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B231106E19876DC9403EEDBA4C190C /* UIImage+KVNEmpty.m */; };
+		9BA89E90D08F82EC682B2BC6622669E0 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3F92909A92EAADBBE1BFB31B5338FF /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D5946AB533D51E460822B7297808329 /* KVNProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA69199F2311E57A488B45CC5D6D663E /* KVNProgress.m */; };
+		AF39D0FD24ABACB2568F18BE12261C93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80981835D3318BE4D732C6620F8E91D /* Foundation.framework */; };
+		B07A69C3794D941C2EA88B81F9A8417D /* UIImage+KVNEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = E185AC24828CB7B1C350F7D3B0F18595 /* UIImage+KVNEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF0F718C9F8E2818B98012CDDA4C6805 /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6384107FC924AE8AC15DE09544852DAF /* FontAwesome.swift-dummy.m */; };
+		D14CDF6E0A7B65C3116F5F8D3AE03D86 /* UIImage+KVNImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E20CD87DA81157012DEDBA12AB50AD /* UIImage+KVNImageEffects.m */; };
+		D3DB9892178912350E5B1F85BE31658F /* KVNProgressConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 669EACEFD32971B53877F9A23C7B5E04 /* KVNProgressConfiguration.m */; };
+		D53ED592377EF6D41EA0103A0FC683B9 /* KVNProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4355866A1ACED5D0EFC1E01D3141E1B /* KVNProgressView.xib */; };
+		F19B795704A8C1CCA8B81BEB33354356 /* KVNProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B868CDD7F4F2B12C864FA916C533ED9 /* KVNProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6FAACE46DA58D72C11CBD723557C383 /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = CB97C736344CD8319656D5821C079317 /* Colours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9FDB3209965535A177CFB7E1B9265A3 /* Colours-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B23F56948CE635181855D9B85E2FF57 /* Colours-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		152015D35574950FFD9570A27EEF3346 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 03CEDB01DC9FCF232E28721AF9D03890;
-			remoteInfo = KVNProgress;
-		};
 		192DAE8239CEDF28426AC10F45C42C62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -55,7 +53,21 @@
 			remoteGlobalIDString = EF4F067C2D0E135B80299B089E168BDA;
 			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
 		};
-		96A0C783733901E5A2F2E030AC2B4B0E /* PBXContainerItemProxy */ = {
+		36B0B816685FF74B90399A2929F981C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F9DBDCBC0566BEF09534F11C71C172;
+			remoteInfo = Colours;
+		};
+		8D0014108B178E61378EFACD863C2FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CEDB01DC9FCF232E28721AF9D03890;
+			remoteInfo = KVNProgress;
+		};
+		C88E0645F0D23F2EE0F82634794C9DB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -67,57 +79,74 @@
 /* Begin PBXFileReference section */
 		0F10691BE897FE9E171B952B5CF89875 /* Pods-PaisesEnElMundo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaisesEnElMundo-dummy.m"; sourceTree = "<group>"; };
 		1468041F28BA6ECA92CFFC9BAA63AA88 /* Pods-PaisesEnElMundo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaisesEnElMundo.release.xcconfig"; sourceTree = "<group>"; };
-		16D8C58707B87919B0C5A8B915BCA313 /* KVNProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVNProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17B2E487BEFDE97BD8C52603DC0474B3 /* KVNProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVNProgress-dummy.m"; sourceTree = "<group>"; };
-		1D5831B6A57C030E80B22AE07259FA71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F5CE7C0F8F43F31AD061FCE95851B9 /* KVNProgressConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgressConfiguration.h; path = KVNProgress/Classes/KVNProgressConfiguration.h; sourceTree = "<group>"; };
+		2587C0EBDCF9E6CFE63AEC202725E0EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28D0D1035C3A19A3D9AF19389E13D43D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B11A55DD6EE687F176BB7912F5755CA /* KVNProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KVNProgressView.xib; path = KVNProgress/Resources/KVNProgressView.xib; sourceTree = "<group>"; };
-		307A5A89E2C9A60780920ED6070F3247 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
-		329F37855461FD4BB67C46101A109CBE /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
-		386C0E9EF6F642805E1BF7953886E0F9 /* KVNProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KVNProgress.modulemap; sourceTree = "<group>"; };
+		2C3F92909A92EAADBBE1BFB31B5338FF /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		360FBC713C1658CF170EE5F88C6A2F71 /* Colours-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-umbrella.h"; sourceTree = "<group>"; };
+		3B868CDD7F4F2B12C864FA916C533ED9 /* KVNProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgress.h; path = KVNProgress/Classes/KVNProgress.h; sourceTree = "<group>"; };
+		3E3F933BAC74F6BEF9C4CC11635CC422 /* KVNProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVNProgress.xcconfig; sourceTree = "<group>"; };
 		432F44FF41D620C5F6BAFFC078C8D2BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4559FCA13BF93DFD6CB0E61881C602C0 /* Pods_PaisesEnElMundo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaisesEnElMundo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4898D2D5D96E4E4EE2F7AF032F4F68E5 /* Colours.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Colours.modulemap; sourceTree = "<group>"; };
 		48A5CA0E950BE000805F4107909E9124 /* Pods-PaisesEnElMundo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaisesEnElMundo-umbrella.h"; sourceTree = "<group>"; };
-		4A94694B6245B64E1FBF8DA26A529CA8 /* Pods_PaisesEnElMundo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaisesEnElMundo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D86C6BE21293D6D22F56449E374BAE5 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
-		5232C85A26809F9D09908F5697F3B69B /* KVNProgressConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgressConfiguration.m; path = KVNProgress/Classes/KVNProgressConfiguration.m; sourceTree = "<group>"; };
-		5381B0194682EAC96D02CE8763CEDAAB /* UIImage+KVNImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNImageEffects.m"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.m"; sourceTree = "<group>"; };
-		55B4406FBB6349C0E9F856C23F228213 /* KVNProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVNProgress-umbrella.h"; sourceTree = "<group>"; };
-		57D1810B9A214243C41E9AFF55F70088 /* KVNProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVNProgress-prefix.pch"; sourceTree = "<group>"; };
-		6726459B6EB685FEC2BBFFD05D88D89C /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		4990462F6B710A856B9314622B26563B /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
+		4FBD508D17A5E2DBB836F22272FEF988 /* KVNRotationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNRotationViewController.h; path = KVNProgress/Classes/KVNRotationViewController.h; sourceTree = "<group>"; };
+		50ABA99C72D9344056AE237F0D5B02A6 /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CB23209041A7251B5BFC6D876FE787 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C35CECE5DE2A9AE34FD0D6231A955E3 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		60EC48564F1ADA21C60196AD0013D81B /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6384107FC924AE8AC15DE09544852DAF /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		669EACEFD32971B53877F9A23C7B5E04 /* KVNProgressConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgressConfiguration.m; path = KVNProgress/Classes/KVNProgressConfiguration.m; sourceTree = "<group>"; };
 		67EB9FD249CF091E8FA721BBEA54570E /* Pods-PaisesEnElMundo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaisesEnElMundo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6B87AA65DD43B522B22D9F22D39668A1 /* UIImage+KVNEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNEmpty.m"; path = "KVNProgress/Categories/UIImage+KVNEmpty.m"; sourceTree = "<group>"; };
 		77C311CF2D0C702DF8C81C542FD51120 /* Pods-PaisesEnElMundo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaisesEnElMundo.debug.xcconfig"; sourceTree = "<group>"; };
-		7870FC3C72156CF537406C9289F6353F /* KVNRotationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNRotationViewController.h; path = KVNProgress/Classes/KVNRotationViewController.h; sourceTree = "<group>"; };
 		791D709CEE76CD763801F82062C26038 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		792BDD318572E30F421FAEE5DA296F38 /* UIImage+KVNImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNImageEffects.h"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.h"; sourceTree = "<group>"; };
+		7AB571B814B38B2BE7467CBACE2F56B0 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		7B6ED50A70DF773A80C4581517E11BB8 /* Colours.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colours.xcconfig; sourceTree = "<group>"; };
 		7E5778D136267AC56BACC764E61BD5DB /* Pods-PaisesEnElMundo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaisesEnElMundo-frameworks.sh"; sourceTree = "<group>"; };
-		8874714B874E6C6119E663E13CDDF14A /* KVNRotationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNRotationViewController.m; path = KVNProgress/Classes/KVNRotationViewController.m; sourceTree = "<group>"; };
-		8EF3C0FE98DA27F640E13229480B30B3 /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BE5D90BDC55349F2E3906B52608F3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85F6C1E560CA7366636891FBAAD17159 /* ResourceBundle-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A9188A351094B120CFBF7C126D4FD87 /* KVNProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgress.m; path = KVNProgress/Classes/KVNProgress.m; sourceTree = "<group>"; };
 		9AABA33C2474A067AB969EE0019B79FB /* Pods-PaisesEnElMundo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaisesEnElMundo-resources.sh"; sourceTree = "<group>"; };
-		A2B0E95AEFEC250438177D23149EACEF /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
-		A74803EE9E5DFDA364343670014631FE /* UIColor+KVNContrast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KVNContrast.m"; path = "KVNProgress/Categories/UIColor+KVNContrast.m"; sourceTree = "<group>"; };
+		9B23F56948CE635181855D9B85E2FF57 /* Colours-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colours-dummy.m"; sourceTree = "<group>"; };
+		A1E20CD87DA81157012DEDBA12AB50AD /* UIImage+KVNImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNImageEffects.m"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.m"; sourceTree = "<group>"; };
 		A80981835D3318BE4D732C6620F8E91D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A8E41E3A8E278204ABE92ACC34AB0B7B /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFEC8296EDDE53BBF2F915AC48DCF70 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
 		AC9CB03453161ED582A1362FC356BBA5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		AF1A01E83644E5F88DDF36A9E561CF0E /* UIImage+KVNEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNEmpty.h"; path = "KVNProgress/Categories/UIImage+KVNEmpty.h"; sourceTree = "<group>"; };
-		B16D9C86AE3E3B99F26D2997B2D4E626 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4233CCA33055CF0E64E053B2D352E8F /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
-		B965E691730D2378D6CAE9E0A1289F48 /* KVNProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVNProgress.xcconfig; sourceTree = "<group>"; };
-		CEEA484B872406E047A1DACF64A61212 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
-		D29EE88E68CC28CCA980DDF8342A179A /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
-		E0FBC1CF70BD88029C558FB7206292BB /* ResourceBundle-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
-		E6C0F1840D3E72FE99CB0668259A1062 /* KVNProgressConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgressConfiguration.h; path = KVNProgress/Classes/KVNProgressConfiguration.h; sourceTree = "<group>"; };
-		F0BDD7581313526C40B12F0F7870AEF8 /* KVNProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgress.h; path = KVNProgress/Classes/KVNProgress.h; sourceTree = "<group>"; };
+		AD1038E33DD97E3A181B264D4EB03EF5 /* Colours-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-prefix.pch"; sourceTree = "<group>"; };
+		AD6087C6390FE9B27B7EFC8A50B94DB7 /* KVNProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVNProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B422B436D052EF460001E6129C62883B /* KVNProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KVNProgress.modulemap; sourceTree = "<group>"; };
+		C19B14B0CF1A0060CC27E8DA901E743C /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		C1A15411A27235D6FD28EE4979CF0E71 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B231106E19876DC9403EEDBA4C190C /* UIImage+KVNEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNEmpty.m"; path = "KVNProgress/Categories/UIImage+KVNEmpty.m"; sourceTree = "<group>"; };
+		C8CABE270C52F728CB0A0D051599074D /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		C955EC64B086CB7B1D7F22D47623E246 /* Colours.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		CB97C736344CD8319656D5821C079317 /* Colours.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		D313942DB0A45CB8396FB1425A5EE323 /* KVNProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVNProgress-prefix.pch"; sourceTree = "<group>"; };
+		D69A71653DB9C5DC097440E0E197B9B3 /* UIImage+KVNImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNImageEffects.h"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.h"; sourceTree = "<group>"; };
+		D81D6BE495094666972CE4E76C2544C5 /* KVNProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVNProgress-umbrella.h"; sourceTree = "<group>"; };
+		DB1E5AAE9F2881A73141324D63A40823 /* KVNRotationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNRotationViewController.m; path = KVNProgress/Classes/KVNRotationViewController.m; sourceTree = "<group>"; };
+		E10089842799088AD2C7593DA4915450 /* KVNProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVNProgress-dummy.m"; sourceTree = "<group>"; };
+		E185AC24828CB7B1C350F7D3B0F18595 /* UIImage+KVNEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNEmpty.h"; path = "KVNProgress/Categories/UIImage+KVNEmpty.h"; sourceTree = "<group>"; };
+		E4355866A1ACED5D0EFC1E01D3141E1B /* KVNProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KVNProgressView.xib; path = KVNProgress/Resources/KVNProgressView.xib; sourceTree = "<group>"; };
+		E6DCD97BFC885F518FC1BF6E44F7F209 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
+		E7272E0A02DAF2A5B0C4D7875D1A461A /* UIColor+KVNContrast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KVNContrast.m"; path = "KVNProgress/Categories/UIColor+KVNContrast.m"; sourceTree = "<group>"; };
+		E9F6CCE0AAB022FD30E20DFC58716981 /* UIColor+KVNContrast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+KVNContrast.h"; path = "KVNProgress/Categories/UIColor+KVNContrast.h"; sourceTree = "<group>"; };
+		EA69199F2311E57A488B45CC5D6D663E /* KVNProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgress.m; path = KVNProgress/Classes/KVNProgress.m; sourceTree = "<group>"; };
+		EF9E5F5D3807B2F6ABB6F9D5D9482897 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
 		F23DE6942392C7D720BC2AC338C43780 /* Pods-PaisesEnElMundo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaisesEnElMundo-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5CDD4E49C704C72F55FE935BC750CCF /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
-		FAFA6A7D96C0B34761F636FB49072FE8 /* UIColor+KVNContrast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+KVNContrast.h"; path = "KVNProgress/Categories/UIColor+KVNContrast.h"; sourceTree = "<group>"; };
 		FFE04563F90B984F87C7FB3AFF30B821 /* Pods-PaisesEnElMundo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PaisesEnElMundo.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2A577340CFE87018D156782D1EF39860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506EC388495B3306186B71B9583F3487 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5578ABFFBCB65D3EBF4D0CD1D5A77EB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,22 +174,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4AB128F1355BAA67CC3A03832E87210 /* Frameworks */ = {
+		D5B43F6E89B5AA3D122CF00C7B922DFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B10CE65D16F48588BCAA9E57CCF83CD /* Foundation.framework in Frameworks */,
+				AF39D0FD24ABACB2568F18BE12261C93 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09F4F8001A1CA236E95F5F7520A88C62 /* Pods */ = {
+		0E951F69897435925E2D8F130299B842 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDB214C10119FB557036AA49F5239D55 /* FontAwesome.swift */,
-				36CCE4349CE4F5E7436433A283E45A72 /* KVNProgress */,
+				DD43C9B4A31FEA7F005A0018B16F960F /* Colours */,
+				E05541EE0F229EF0D51B08CE9FD704CA /* FontAwesome.swift */,
+				606F007B0480003D36C7B27E1A7910B5 /* KVNProgress */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -173,31 +203,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		21BF40B47C740B47FDB75AA1B0ACBA0E /* Resources */ = {
+		43A9CCAAD8B191E66FC165524F5A46BB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2B11A55DD6EE687F176BB7912F5755CA /* KVNProgressView.xib */,
+				4898D2D5D96E4E4EE2F7AF032F4F68E5 /* Colours.modulemap */,
+				7B6ED50A70DF773A80C4581517E11BB8 /* Colours.xcconfig */,
+				9B23F56948CE635181855D9B85E2FF57 /* Colours-dummy.m */,
+				AD1038E33DD97E3A181B264D4EB03EF5 /* Colours-prefix.pch */,
+				360FBC713C1658CF170EE5F88C6A2F71 /* Colours-umbrella.h */,
+				2587C0EBDCF9E6CFE63AEC202725E0EE /* Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/Colours";
 			sourceTree = "<group>";
 		};
-		36CCE4349CE4F5E7436433A283E45A72 /* KVNProgress */ = {
+		44A27A4CEE8DD96795442FB1105F24DA /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				F0BDD7581313526C40B12F0F7870AEF8 /* KVNProgress.h */,
-				9A9188A351094B120CFBF7C126D4FD87 /* KVNProgress.m */,
-				E6C0F1840D3E72FE99CB0668259A1062 /* KVNProgressConfiguration.h */,
-				5232C85A26809F9D09908F5697F3B69B /* KVNProgressConfiguration.m */,
-				7870FC3C72156CF537406C9289F6353F /* KVNRotationViewController.h */,
-				8874714B874E6C6119E663E13CDDF14A /* KVNRotationViewController.m */,
-				FAFA6A7D96C0B34761F636FB49072FE8 /* UIColor+KVNContrast.h */,
-				A74803EE9E5DFDA364343670014631FE /* UIColor+KVNContrast.m */,
-				AF1A01E83644E5F88DDF36A9E561CF0E /* UIImage+KVNEmpty.h */,
-				6B87AA65DD43B522B22D9F22D39668A1 /* UIImage+KVNEmpty.m */,
-				792BDD318572E30F421FAEE5DA296F38 /* UIImage+KVNImageEffects.h */,
-				5381B0194682EAC96D02CE8763CEDAAB /* UIImage+KVNImageEffects.m */,
-				21BF40B47C740B47FDB75AA1B0ACBA0E /* Resources */,
-				8E09A439B446FF829B62034A30D33BB1 /* Support Files */,
+				CB97C736344CD8319656D5821C079317 /* Colours.h */,
+				C955EC64B086CB7B1D7F22D47623E246 /* Colours.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		606F007B0480003D36C7B27E1A7910B5 /* KVNProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3B868CDD7F4F2B12C864FA916C533ED9 /* KVNProgress.h */,
+				EA69199F2311E57A488B45CC5D6D663E /* KVNProgress.m */,
+				17F5CE7C0F8F43F31AD061FCE95851B9 /* KVNProgressConfiguration.h */,
+				669EACEFD32971B53877F9A23C7B5E04 /* KVNProgressConfiguration.m */,
+				4FBD508D17A5E2DBB836F22272FEF988 /* KVNRotationViewController.h */,
+				DB1E5AAE9F2881A73141324D63A40823 /* KVNRotationViewController.m */,
+				E9F6CCE0AAB022FD30E20DFC58716981 /* UIColor+KVNContrast.h */,
+				E7272E0A02DAF2A5B0C4D7875D1A461A /* UIColor+KVNContrast.m */,
+				E185AC24828CB7B1C350F7D3B0F18595 /* UIImage+KVNEmpty.h */,
+				C2B231106E19876DC9403EEDBA4C190C /* UIImage+KVNEmpty.m */,
+				D69A71653DB9C5DC097440E0E197B9B3 /* UIImage+KVNImageEffects.h */,
+				A1E20CD87DA81157012DEDBA12AB50AD /* UIImage+KVNImageEffects.m */,
+				C6740A9D4B16F8451D2A11E4BA2E0BBA /* Resources */,
+				9346BC7D4836EF1810BFADA2B6101398 /* Support Files */,
 			);
 			path = KVNProgress;
 			sourceTree = "<group>";
@@ -207,24 +252,39 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				09F4F8001A1CA236E95F5F7520A88C62 /* Pods */,
-				EC0068249AEF971AC34EE3A6D9E4E58F /* Products */,
+				0E951F69897435925E2D8F130299B842 /* Pods */,
+				E8EB5C041BBA993CB7482985D4F11A7B /* Products */,
 				F1A42FFCE6DEDC423755B61A2E119B1B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8E09A439B446FF829B62034A30D33BB1 /* Support Files */ = {
+		9346BC7D4836EF1810BFADA2B6101398 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1D5831B6A57C030E80B22AE07259FA71 /* Info.plist */,
-				386C0E9EF6F642805E1BF7953886E0F9 /* KVNProgress.modulemap */,
-				B965E691730D2378D6CAE9E0A1289F48 /* KVNProgress.xcconfig */,
-				17B2E487BEFDE97BD8C52603DC0474B3 /* KVNProgress-dummy.m */,
-				57D1810B9A214243C41E9AFF55F70088 /* KVNProgress-prefix.pch */,
-				55B4406FBB6349C0E9F856C23F228213 /* KVNProgress-umbrella.h */,
+				53CB23209041A7251B5BFC6D876FE787 /* Info.plist */,
+				B422B436D052EF460001E6129C62883B /* KVNProgress.modulemap */,
+				3E3F933BAC74F6BEF9C4CC11635CC422 /* KVNProgress.xcconfig */,
+				E10089842799088AD2C7593DA4915450 /* KVNProgress-dummy.m */,
+				D313942DB0A45CB8396FB1425A5EE323 /* KVNProgress-prefix.pch */,
+				D81D6BE495094666972CE4E76C2544C5 /* KVNProgress-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KVNProgress";
+			sourceTree = "<group>";
+		};
+		9D1882687C5CCD8600BC53D711E3D614 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C19B14B0CF1A0060CC27E8DA901E743C /* FontAwesome.swift.modulemap */,
+				E6DCD97BFC885F518FC1BF6E44F7F209 /* FontAwesome.swift.xcconfig */,
+				6384107FC924AE8AC15DE09544852DAF /* FontAwesome.swift-dummy.m */,
+				C8CABE270C52F728CB0A0D051599074D /* FontAwesome.swift-prefix.pch */,
+				2C3F92909A92EAADBBE1BFB31B5338FF /* FontAwesome.swift-umbrella.h */,
+				81BE5D90BDC55349F2E3906B52608F3E /* Info.plist */,
+				85F6C1E560CA7366636891FBAAD17159 /* ResourceBundle-FontAwesome.swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
 			sourceTree = "<group>";
 		};
 		B2E6F9CC927196C0CF06CACC4E3C511C /* iOS */ = {
@@ -239,21 +299,43 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D7067660FCE31019076794E55DAB6B7F /* Resources */ = {
+		C6740A9D4B16F8451D2A11E4BA2E0BBA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A2B0E95AEFEC250438177D23149EACEF /* FontAwesome.otf */,
+				E4355866A1ACED5D0EFC1E01D3141E1B /* KVNProgressView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		EC0068249AEF971AC34EE3A6D9E4E58F /* Products */ = {
+		DD43C9B4A31FEA7F005A0018B16F960F /* Colours */ = {
 			isa = PBXGroup;
 			children = (
-				8EF3C0FE98DA27F640E13229480B30B3 /* FontAwesome.swift.bundle */,
-				A8E41E3A8E278204ABE92ACC34AB0B7B /* FontAwesome_swift.framework */,
-				16D8C58707B87919B0C5A8B915BCA313 /* KVNProgress.framework */,
-				4A94694B6245B64E1FBF8DA26A529CA8 /* Pods_PaisesEnElMundo.framework */,
+				44A27A4CEE8DD96795442FB1105F24DA /* ObjC */,
+				43A9CCAAD8B191E66FC165524F5A46BB /* Support Files */,
+			);
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		E05541EE0F229EF0D51B08CE9FD704CA /* FontAwesome.swift */ = {
+			isa = PBXGroup;
+			children = (
+				7AB571B814B38B2BE7467CBACE2F56B0 /* Enum.swift */,
+				EF9E5F5D3807B2F6ABB6F9D5D9482897 /* FontAwesome.swift */,
+				5C35CECE5DE2A9AE34FD0D6231A955E3 /* FontAwesomeView.swift */,
+				FA90BB6F7F0082B792532E37C8BA1CE4 /* Resources */,
+				9D1882687C5CCD8600BC53D711E3D614 /* Support Files */,
+			);
+			path = FontAwesome.swift;
+			sourceTree = "<group>";
+		};
+		E8EB5C041BBA993CB7482985D4F11A7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60EC48564F1ADA21C60196AD0013D81B /* Colours.framework */,
+				50ABA99C72D9344056AE237F0D5B02A6 /* FontAwesome.swift.bundle */,
+				C1A15411A27235D6FD28EE4979CF0E71 /* FontAwesome_swift.framework */,
+				AD6087C6390FE9B27B7EFC8A50B94DB7 /* KVNProgress.framework */,
+				4559FCA13BF93DFD6CB0E61881C602C0 /* Pods_PaisesEnElMundo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,21 +358,6 @@
 			path = "Target Support Files/Pods-PaisesEnElMundo";
 			sourceTree = "<group>";
 		};
-		F1326A2C933775A5D67C6F9E97B8C775 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5CDD4E49C704C72F55FE935BC750CCF /* FontAwesome.swift.modulemap */,
-				D29EE88E68CC28CCA980DDF8342A179A /* FontAwesome.swift.xcconfig */,
-				329F37855461FD4BB67C46101A109CBE /* FontAwesome.swift-dummy.m */,
-				6726459B6EB685FEC2BBFFD05D88D89C /* FontAwesome.swift-prefix.pch */,
-				307A5A89E2C9A60780920ED6070F3247 /* FontAwesome.swift-umbrella.h */,
-				B16D9C86AE3E3B99F26D2997B2D4E626 /* Info.plist */,
-				E0FBC1CF70BD88029C558FB7206292BB /* ResourceBundle-FontAwesome.swift-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FontAwesome.swift";
-			sourceTree = "<group>";
-		};
 		F1A42FFCE6DEDC423755B61A2E119B1B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,16 +366,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FDB214C10119FB557036AA49F5239D55 /* FontAwesome.swift */ = {
+		FA90BB6F7F0082B792532E37C8BA1CE4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B4233CCA33055CF0E64E053B2D352E8F /* Enum.swift */,
-				4D86C6BE21293D6D22F56449E374BAE5 /* FontAwesome.swift */,
-				CEEA484B872406E047A1DACF64A61212 /* FontAwesomeView.swift */,
-				D7067660FCE31019076794E55DAB6B7F /* Resources */,
-				F1326A2C933775A5D67C6F9E97B8C775 /* Support Files */,
+				4990462F6B710A856B9314622B26563B /* FontAwesome.otf */,
 			);
-			path = FontAwesome.swift;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,11 +385,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1FB46F0D318AAFDFFAD486915767926 /* Headers */ = {
+		6A2818378E2B1CFFAD9897C3081573CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B132429BAE181AFDCDB5EE8F10D0EAAB /* Pods-PaisesEnElMundo-umbrella.h in Headers */,
+				55F6B17FB7D27068BE1E911A5E0CB891 /* Pods-PaisesEnElMundo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932CE2BADA93F85A608DF1223F22D00B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45925C81319CA95299F63A4B1D048AAB /* Colours-umbrella.h in Headers */,
+				F6FAACE46DA58D72C11CBD723557C383 /* Colours.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +434,7 @@
 			);
 			name = KVNProgress;
 			productName = KVNProgress;
-			productReference = 16D8C58707B87919B0C5A8B915BCA313 /* KVNProgress.framework */;
+			productReference = AD6087C6390FE9B27B7EFC8A50B94DB7 /* KVNProgress.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */ = {
@@ -381,26 +453,44 @@
 			);
 			name = FontAwesome.swift;
 			productName = FontAwesome.swift;
-			productReference = A8E41E3A8E278204ABE92ACC34AB0B7B /* FontAwesome_swift.framework */;
+			productReference = C1A15411A27235D6FD28EE4979CF0E71 /* FontAwesome_swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D44886836AF54F672554B35CACA40F73 /* Pods-PaisesEnElMundo */ = {
+		34E936FB2DAC75C8DFE4BB276D13E3BD /* Pods-PaisesEnElMundo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82D2FB6509227D766D8406280D978ED5 /* Build configuration list for PBXNativeTarget "Pods-PaisesEnElMundo" */;
+			buildConfigurationList = 61838E2912965FC9002AC200D157A5FE /* Build configuration list for PBXNativeTarget "Pods-PaisesEnElMundo" */;
 			buildPhases = (
-				328D28CEF93921E8EA15CEB9511A63BD /* Sources */,
-				F4AB128F1355BAA67CC3A03832E87210 /* Frameworks */,
-				A1FB46F0D318AAFDFFAD486915767926 /* Headers */,
+				A81D100154515DD30CD3559EF0C9CEEB /* Sources */,
+				2A577340CFE87018D156782D1EF39860 /* Frameworks */,
+				6A2818378E2B1CFFAD9897C3081573CB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6ACFDDC815761630501E7551955DAFFD /* PBXTargetDependency */,
-				7D965DEC6C7DFA2A30EF86C4E3CBF66F /* PBXTargetDependency */,
+				4C3C2C144FF105EFB108DB64CC488BBE /* PBXTargetDependency */,
+				3D34A9EEAEAC9F4729789A7F10546CA5 /* PBXTargetDependency */,
+				73404C12D7C8A9F9B9ECE49D915DF97B /* PBXTargetDependency */,
 			);
 			name = "Pods-PaisesEnElMundo";
 			productName = "Pods-PaisesEnElMundo";
-			productReference = 4A94694B6245B64E1FBF8DA26A529CA8 /* Pods_PaisesEnElMundo.framework */;
+			productReference = 4559FCA13BF93DFD6CB0E61881C602C0 /* Pods_PaisesEnElMundo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99F9DBDCBC0566BEF09534F11C71C172 /* Colours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA7AC794D00C3259EDBB85BBFFF27C7 /* Build configuration list for PBXNativeTarget "Colours" */;
+			buildPhases = (
+				EE635B7DD596BBE10A6E691B42585D9C /* Sources */,
+				D5B43F6E89B5AA3D122CF00C7B922DFA /* Frameworks */,
+				932CE2BADA93F85A608DF1223F22D00B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colours;
+			productName = Colours;
+			productReference = 60EC48564F1ADA21C60196AD0013D81B /* Colours.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EF4F067C2D0E135B80299B089E168BDA /* FontAwesome.swift-FontAwesome.swift */ = {
@@ -417,7 +507,7 @@
 			);
 			name = "FontAwesome.swift-FontAwesome.swift";
 			productName = "FontAwesome.swift-FontAwesome.swift";
-			productReference = 8EF3C0FE98DA27F640E13229480B30B3 /* FontAwesome.swift.bundle */;
+			productReference = 50ABA99C72D9344056AE237F0D5B02A6 /* FontAwesome.swift.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -437,14 +527,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EC0068249AEF971AC34EE3A6D9E4E58F /* Products */;
+			productRefGroup = E8EB5C041BBA993CB7482985D4F11A7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				99F9DBDCBC0566BEF09534F11C71C172 /* Colours */,
 				1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */,
 				EF4F067C2D0E135B80299B089E168BDA /* FontAwesome.swift-FontAwesome.swift */,
 				03CEDB01DC9FCF232E28721AF9D03890 /* KVNProgress */,
-				D44886836AF54F672554B35CACA40F73 /* Pods-PaisesEnElMundo */,
+				34E936FB2DAC75C8DFE4BB276D13E3BD /* Pods-PaisesEnElMundo */,
 			);
 		};
 /* End PBXProject section */
@@ -488,18 +579,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		328D28CEF93921E8EA15CEB9511A63BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09A66CC36C994E9358BDF08D5240355B /* Pods-PaisesEnElMundo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		619EA0F427AF8584A7B03876241916DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81D100154515DD30CD3559EF0C9CEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C462E5DBA2DA5069135D70B4800A42F /* Pods-PaisesEnElMundo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE635B7DD596BBE10A6E691B42585D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FDB3209965535A177CFB7E1B9265A3 /* Colours-dummy.m in Sources */,
+				25F105B34A5DA5D16045EF92F683CF47 /* Colours.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,66 +620,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3D34A9EEAEAC9F4729789A7F10546CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesome.swift;
+			target = 1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */;
+			targetProxy = C88E0645F0D23F2EE0F82634794C9DB4 /* PBXContainerItemProxy */;
+		};
+		4C3C2C144FF105EFB108DB64CC488BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colours;
+			target = 99F9DBDCBC0566BEF09534F11C71C172 /* Colours */;
+			targetProxy = 36B0B816685FF74B90399A2929F981C7 /* PBXContainerItemProxy */;
+		};
 		5044CA3A48D08FC86E1A3B1F860FAE01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FontAwesome.swift-FontAwesome.swift";
 			target = EF4F067C2D0E135B80299B089E168BDA /* FontAwesome.swift-FontAwesome.swift */;
 			targetProxy = 192DAE8239CEDF28426AC10F45C42C62 /* PBXContainerItemProxy */;
 		};
-		6ACFDDC815761630501E7551955DAFFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FontAwesome.swift;
-			target = 1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */;
-			targetProxy = 96A0C783733901E5A2F2E030AC2B4B0E /* PBXContainerItemProxy */;
-		};
-		7D965DEC6C7DFA2A30EF86C4E3CBF66F /* PBXTargetDependency */ = {
+		73404C12D7C8A9F9B9ECE49D915DF97B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KVNProgress;
 			target = 03CEDB01DC9FCF232E28721AF9D03890 /* KVNProgress */;
-			targetProxy = 152015D35574950FFD9570A27EEF3346 /* PBXContainerItemProxy */;
+			targetProxy = 8D0014108B178E61378EFACD863C2FD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		030E8156C0D8B27293B3101720C1ADE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77C311CF2D0C702DF8C81C542FD51120 /* Pods-PaisesEnElMundo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PaisesEnElMundo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PaisesEnElMundo/Pods-PaisesEnElMundo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PaisesEnElMundo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0A377CDE9B27653F98E0692049B8DE19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D29EE88E68CC28CCA980DDF8342A179A /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = E6DCD97BFC885F518FC1BF6E44F7F209 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -640,7 +710,7 @@
 		};
 		340B5ACFE3E92D6A7938ADFF4354F593 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B965E691730D2378D6CAE9E0A1289F48 /* KVNProgress.xcconfig */;
+			baseConfigurationReference = 3E3F933BAC74F6BEF9C4CC11635CC422 /* KVNProgress.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -670,9 +740,41 @@
 			};
 			name = Debug;
 		};
+		3B6ADE931D029F2B2E68BC2031E14210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6ED50A70DF773A80C4581517E11BB8 /* Colours.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colours/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Colours/Colours.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		408DB3413398B29EE089C0212414F9F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D29EE88E68CC28CCA980DDF8342A179A /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = E6DCD97BFC885F518FC1BF6E44F7F209 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -704,7 +806,7 @@
 		};
 		64147827621B355A1E4C20FC21082C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D29EE88E68CC28CCA980DDF8342A179A /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = E6DCD97BFC885F518FC1BF6E44F7F209 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -735,7 +837,88 @@
 			};
 			name = Debug;
 		};
-		774748FFC24CFCC25A1612C26F248F33 /* Release */ = {
+		65759C76BBC4AA3E26BC70BE42AF2B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6ED50A70DF773A80C4581517E11BB8 /* Colours.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colours/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Colours/Colours.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5CDEF4896424916421E96580C2BC61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DCD97BFC885F518FC1BF6E44F7F209 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BC7F98E19BFDE3A7950E82699CDF0DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E3F933BAC74F6BEF9C4CC11635CC422 /* KVNProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVNProgress/KVNProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVNProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVNProgress/KVNProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KVNProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5B8C971750AA3282F9392626A4A5393 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1468041F28BA6ECA92CFFC9BAA63AA88 /* Pods-PaisesEnElMundo.release.xcconfig */;
 			buildSettings = {
@@ -770,54 +953,41 @@
 			};
 			name = Release;
 		};
-		A5CDEF4896424916421E96580C2BC61F /* Debug */ = {
+		D11069C5884C223A343FB8C56CFB7D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D29EE88E68CC28CCA980DDF8342A179A /* FontAwesome.swift.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FontAwesome.swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		BC7F98E19BFDE3A7950E82699CDF0DE7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B965E691730D2378D6CAE9E0A1289F48 /* KVNProgress.xcconfig */;
+			baseConfigurationReference = 77C311CF2D0C702DF8C81C542FD51120 /* Pods-PaisesEnElMundo.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KVNProgress/KVNProgress-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KVNProgress/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaisesEnElMundo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KVNProgress/KVNProgress.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KVNProgress;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaisesEnElMundo/Pods-PaisesEnElMundo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaisesEnElMundo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -871,11 +1041,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82D2FB6509227D766D8406280D978ED5 /* Build configuration list for PBXNativeTarget "Pods-PaisesEnElMundo" */ = {
+		61838E2912965FC9002AC200D157A5FE /* Build configuration list for PBXNativeTarget "Pods-PaisesEnElMundo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				030E8156C0D8B27293B3101720C1ADE4 /* Debug */,
-				774748FFC24CFCC25A1612C26F248F33 /* Release */,
+				D11069C5884C223A343FB8C56CFB7D59 /* Debug */,
+				C5B8C971750AA3282F9392626A4A5393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA7AC794D00C3259EDBB85BBFFF27C7 /* Build configuration list for PBXNativeTarget "Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65759C76BBC4AA3E26BC70BE42AF2B17 /* Debug */,
+				3B6ADE931D029F2B2E68BC2031E14210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

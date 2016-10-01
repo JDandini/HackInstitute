@@ -49,8 +49,13 @@ class Connections: NSObject {
                         //no hubo error en la conexion
                         do{
                             // transformamos los datos en un arreglo de diccionarios
-                            let responseObj = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [[String:AnyObject]]
-                            completion(responseObj, nil)
+                            if let responseObj = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? [[String:AnyObject]]{
+                                completion(responseObj, nil)
+                            }else{
+                                let responseError = NSError(domain: "ResponseInvalid", code: 400, userInfo: ["info":"No existe este país"])
+                                completion(nil, responseError)
+                            }
+                            
                         }catch let e as NSError{
                             //error al convertir datos en arreglo de diccionarios
                             completion(nil, e)
