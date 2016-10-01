@@ -10,23 +10,37 @@ import UIKit
 
 class Country: NSObject {
     let name:String
-    let id:Int
-    var countryDesc:String?
+    let code:String
+    let capital:String
+    let region:String
+    let population:Int
+    let area:Int
+    let currencies:[String]
+    let languages: [String]
     
-    init(name:String, id:Int, descrip:String?) {
-        self.id = id
+    
+    init(name:String,code:String,capital:String,region:String,population:Int, area:Int, currencies:[String], languages:[String] ) {
         self.name = name
-        self.countryDesc = descrip
+        self.code = code
+        self.capital = capital
+        self.region = region
+        self.population = population
+        self.area = area
+        self.currencies = currencies
+        self.languages = languages
     }
     
     class func countryFromDictionary(countryDic:[String:AnyObject])->Country?{
-        if  let id = countryDic["identifier"] as? Int,
-            let name = countryDic["name"] as? String{
-            var descrip:String?
-            if let desc = countryDic["description"] as? String{
-                descrip = desc
-            }
-                return Country(name: name, id: id, descrip: descrip)
+        if let name = countryDic["name"] as? String,
+            let code = countryDic["alpha2Code"] as? String,
+            let capital = countryDic["capital"] as? String,
+            let region = countryDic["region"] as? String,
+            let population = countryDic["population"] as? Int,
+            let area =  countryDic["area"] as? Int,
+            let currencies = countryDic["currencies"] as? [String],
+            let languages = countryDic["languages"] as? [String]{
+            
+                return Country(name:name,code:code,capital:capital,region:region,population:population, area:area, currencies:currencies, languages:languages )
         }
         
         return nil

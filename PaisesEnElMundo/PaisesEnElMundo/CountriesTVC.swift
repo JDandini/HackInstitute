@@ -11,24 +11,32 @@ import UIKit
 class CountriesTVC: UITableViewController {
 
     var countriesArray:[Country]!
-    var selectedCpuntry:Country!
+    var selectedCountry:Country!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         countriesArray = []
-        //Obtención de el path del archivo Countries.plist
-        if let filePath = Bundle.main.path(forResource: "Countries", ofType: "plist"){
-            //Inicializar arreglo con el contenido del archivo
-            let tmpArray = NSArray(contentsOfFile: filePath)
-            //Conversion de NSArray -> arreglo del tipo [[String:AnyObject]]
-            let countriesRaw = tmpArray as! [[String:AnyObject]]
-            //Creación de datos tipo Country
-            for countryDic in countriesRaw{
-                if let country =  Country.countryFromDictionary(countryDic: countryDic){
-                    countriesArray.append(country)
+        // Creación de instancia de objeto de connexiones
+        let connect = Connections()
+        // llamada a obtener paises
+        connect.getCountriesForRegion(region: "europe") { (countriesArray, error) in
+            // termina la conexión
+            if let e = error, let desE = e.userInfo["info"] as? String{
+                // caso de error mostramos alerta al usuario
+                let alertError = UIAlertController(title: "OH NO!", message: desE, preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alertError.addAction(okAction)
+                self.present(alertError, animated: true, completion: nil)
+            }else if let rawArray = countriesArray{
+                // no hay error entonces llenamos arreglo de paises
+                for dicCountry in rawArray{
+                    if let country = Country.countryFromDictionary(countryDic: dicCountry){
+                        self.countriesArray.append(country)
+                        print(self.countriesArray)
+                        self.tableView.reloadData()
+                    }
                 }
             }
-            countriesArray =  countriesArray.sorted{$0.name < $1.name}
         }
     }
 
@@ -44,14 +52,13 @@ class CountriesTVC: UITableViewController {
             //hago conversion de UIViewController a CountryDetailVC
             let detail =  segue.destination as! CountryDetailVC
             //Le pasamos el país
-            detail.selectedCountry = selectedCpuntry
+            detail.selectedCountry = selectedCountry
         }
     }
     
 }
-
+// MARK: - Table view data source
 extension CountriesTVC{
-    // MARK: - Table view data source
     //  Metodo que dice el número de secciones en la tabla
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -80,7 +87,7 @@ extension CountriesTVC{
         //despintamos la celda
         tableView.deselectRow(at: indexPath, animated: true)
         //Seleccionamos un país
-        selectedCpuntry = countriesArray[indexPath.row]
+        selectedCountry = countriesArray[indexPath.row]
         //hacemos la transición
         self.performSegue(withIdentifier: "Detail", sender: self)
     }

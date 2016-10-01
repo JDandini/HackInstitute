@@ -15,6 +15,8 @@
 		CC0944611D96FE7E006641F9 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC0944601D96FE7E006641F9 /* Countries.plist */; };
 		CC0944631D9701F6006641F9 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0944621D9701F6006641F9 /* Country.swift */; };
 		CC0944651D970A35006641F9 /* CountryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0944641D970A35006641F9 /* CountryDetailVC.swift */; };
+		CCF95D951DA00A10000E9AFD /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF95D941DA00A10000E9AFD /* Connections.swift */; };
+		CCF95D9B1DA00BF9000E9AFD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF95D9A1DA00BF9000E9AFD /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		CC0944601D96FE7E006641F9 /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
 		CC0944621D9701F6006641F9 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		CC0944641D970A35006641F9 /* CountryDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailVC.swift; sourceTree = "<group>"; };
+		CCF95D941DA00A10000E9AFD /* Connections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connections.swift; sourceTree = "<group>"; };
+		CCF95D981DA00BF8000E9AFD /* PaisesEnElMundo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaisesEnElMundo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CCF95D991DA00BF9000E9AFD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CCF95D9A1DA00BF9000E9AFD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +67,36 @@
 			isa = PBXGroup;
 			children = (
 				CC09444A1D96FCB3006641F9 /* AppDelegate.swift */,
-				CC09445E1D96FD52006641F9 /* CountriesTVC.swift */,
-				CC0944641D970A35006641F9 /* CountryDetailVC.swift */,
-				CC0944621D9701F6006641F9 /* Country.swift */,
-				CC0944601D96FE7E006641F9 /* Countries.plist */,
+				CCF95D961DA00BCD000E9AFD /* ViewControllers */,
+				CCF95D971DA00BDD000E9AFD /* Assets */,
 				CC0944501D96FCB3006641F9 /* Main.storyboard */,
 				CC0944531D96FCB3006641F9 /* Assets.xcassets */,
 				CC0944551D96FCB3006641F9 /* LaunchScreen.storyboard */,
 				CC0944581D96FCB3006641F9 /* Info.plist */,
 			);
 			path = PaisesEnElMundo;
+			sourceTree = "<group>";
+		};
+		CCF95D961DA00BCD000E9AFD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC09445E1D96FD52006641F9 /* CountriesTVC.swift */,
+				CC0944641D970A35006641F9 /* CountryDetailVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CCF95D971DA00BDD000E9AFD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CCF95D991DA00BF9000E9AFD /* Reachability.h */,
+				CCF95D9A1DA00BF9000E9AFD /* Reachability.m */,
+				CC0944621D9701F6006641F9 /* Country.swift */,
+				CCF95D941DA00A10000E9AFD /* Connections.swift */,
+				CC0944601D96FE7E006641F9 /* Countries.plist */,
+				CCF95D981DA00BF8000E9AFD /* PaisesEnElMundo-Bridging-Header.h */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +131,7 @@
 				TargetAttributes = {
 					CC0944461D96FCB3006641F9 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -148,7 +175,9 @@
 			files = (
 				CC0944651D970A35006641F9 /* CountryDetailVC.swift in Sources */,
 				CC09445F1D96FD52006641F9 /* CountriesTVC.swift in Sources */,
+				CCF95D951DA00A10000E9AFD /* Connections.swift in Sources */,
 				CC0944631D9701F6006641F9 /* Country.swift in Sources */,
+				CCF95D9B1DA00BF9000E9AFD /* Reachability.m in Sources */,
 				CC09444B1D96FCB3006641F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +299,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PaisesEnElMundo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.hackinstitute.PaisesEnElMundo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaisesEnElMundo/PaisesEnElMundo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -282,10 +314,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PaisesEnElMundo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.hackinstitute.PaisesEnElMundo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaisesEnElMundo/PaisesEnElMundo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -309,6 +343,7 @@
 				CC09445D1D96FCB3006641F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
