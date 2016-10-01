@@ -16,6 +16,14 @@ class CountriesTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let blueColor = UIColor.babyBlue()
+        let size = CGSize(width: 20, height: 20)
+        let imgMagnify = UIImage.fontAwesomeIconWithName(.Search, textColor: blueColor!, size: size)
+        
+        let bbiMagnify = UIBarButtonItem(image: imgMagnify, style: .plain, target: self, action: #selector(self.sendToSearch))
+        self.navigationItem.setRightBarButton(bbiMagnify, animated: true)
+        
         self.title = "Paises"
         countriesArray = []
         // Creación de instancia de objeto de connexiones
@@ -49,7 +57,11 @@ class CountriesTVC: UITableViewController {
             }
         }
     }
-
+    
+    func sendToSearch(){
+        self.performSegue(withIdentifier: "Search", sender: self)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

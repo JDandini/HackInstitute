@@ -18,6 +18,7 @@
 		CC0944651D970A35006641F9 /* CountryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0944641D970A35006641F9 /* CountryDetailVC.swift */; };
 		CCF95D951DA00A10000E9AFD /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF95D941DA00A10000E9AFD /* Connections.swift */; };
 		CCF95D9B1DA00BF9000E9AFD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF95D9A1DA00BF9000E9AFD /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCF95D9D1DA049FE000E9AFD /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF95D9C1DA049FE000E9AFD /* SearchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		CCF95D981DA00BF8000E9AFD /* PaisesEnElMundo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaisesEnElMundo-Bridging-Header.h"; sourceTree = "<group>"; };
 		CCF95D991DA00BF9000E9AFD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		CCF95D9A1DA00BF9000E9AFD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CCF95D9C1DA049FE000E9AFD /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		FF072D76D7FA34ED982A976B /* Pods-PaisesEnElMundo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaisesEnElMundo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaisesEnElMundo/Pods-PaisesEnElMundo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 			children = (
 				CC09445E1D96FD52006641F9 /* CountriesTVC.swift */,
 				CC0944641D970A35006641F9 /* CountryDetailVC.swift */,
+				CCF95D9C1DA049FE000E9AFD /* SearchVC.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				CC0944631D9701F6006641F9 /* Country.swift in Sources */,
 				CCF95D9B1DA00BF9000E9AFD /* Reachability.m in Sources */,
 				CC09444B1D96FCB3006641F9 /* AppDelegate.swift in Sources */,
+				CCF95D9D1DA049FE000E9AFD /* SearchVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
