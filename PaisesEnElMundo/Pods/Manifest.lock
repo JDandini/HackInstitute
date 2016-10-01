@@ -1,0 +1,15 @@
+PODS:
+  - FontAwesome.swift (0.9.0)
+  - KVNProgress (2.3.1)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - KVNProgress
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: 8744c24147e925c61e68d313a2837c7298e2a43f
+  KVNProgress: 8167b1f19e2758290c0b6143020ed9dcbb0477a1
+
+PODFILE CHECKSUM: 5e2913c144a8499cf7871a12a756900230862069
+
+COCOAPODS: 1.1.0.rc.2

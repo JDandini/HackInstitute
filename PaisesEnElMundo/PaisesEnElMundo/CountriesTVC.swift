@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KVNProgress
 
 class CountriesTVC: UITableViewController {
 
@@ -17,12 +18,14 @@ class CountriesTVC: UITableViewController {
         super.viewDidLoad()
         countriesArray = []
         // Creación de instancia de objeto de connexiones
+        KVNProgress.show()
         let connect = Connections()
         // llamada a obtener paises
         connect.getCountriesForRegion(region: "europe") { (countriesArray, error) in
             // termina la conexión
             if let e = error, let desE = e.userInfo["info"] as? String{
                 // caso de error mostramos alerta al usuario
+                KVNProgress.dismiss()
                 let alertError = UIAlertController(title: "OH NO!", message: desE, preferredStyle: .alert)
                 let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
                 alertError.addAction(okAction)
@@ -31,11 +34,11 @@ class CountriesTVC: UITableViewController {
                 // no hay error entonces llenamos arreglo de paises
                 for dicCountry in rawArray{
                     if let country = Country.countryFromDictionary(countryDic: dicCountry){
-                        self.countriesArray.append(country)
-                        print(self.countriesArray)
-                        self.tableView.reloadData()
+                        self.countriesArray.append(country)                        
                     }
                 }
+                self.tableView.reloadData()
+                KVNProgress.showSuccess(withStatus: "¡Exito!")
             }
         }
     }
