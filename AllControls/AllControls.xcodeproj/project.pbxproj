@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		CCE772171DA807E40072C833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE772161DA807E40072C833 /* AppDelegate.swift */; };
-		CCE772191DA807E40072C833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE772181DA807E40072C833 /* ViewController.swift */; };
 		CCE7721C1DA807E40072C833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE7721A1DA807E40072C833 /* Main.storyboard */; };
 		CCE7721E1DA807E40072C833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE7721D1DA807E40072C833 /* Assets.xcassets */; };
 		CCE772211DA807E40072C833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE7721F1DA807E40072C833 /* LaunchScreen.storyboard */; };
+		CCE772291DA8105A0072C833 /* ControlTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE772281DA8105A0072C833 /* ControlTVC.swift */; };
+		CCE7722E1DA814C60072C833 /* Exo2-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCE7722A1DA814C60072C833 /* Exo2-Bold.otf */; };
+		CCE7722F1DA814C60072C833 /* Exo2-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCE7722B1DA814C60072C833 /* Exo2-ExtraLight.otf */; };
+		CCE772301DA814C60072C833 /* Exo2-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCE7722C1DA814C60072C833 /* Exo2-Regular.otf */; };
+		CCE772311DA814C60072C833 /* Exo2-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCE7722D1DA814C60072C833 /* Exo2-Thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CCE772131DA807E40072C833 /* AllControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE772161DA807E40072C833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCE772181DA807E40072C833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCE7721B1DA807E40072C833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCE7721D1DA807E40072C833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE772201DA807E40072C833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCE772221DA807E40072C833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE772281DA8105A0072C833 /* ControlTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControlTVC.swift; path = ViewControllers/ControlTVC.swift; sourceTree = "<group>"; };
+		CCE7722A1DA814C60072C833 /* Exo2-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Exo2-Bold.otf"; path = "Fonts/Exo2-Bold.otf"; sourceTree = "<group>"; };
+		CCE7722B1DA814C60072C833 /* Exo2-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Exo2-ExtraLight.otf"; path = "Fonts/Exo2-ExtraLight.otf"; sourceTree = "<group>"; };
+		CCE7722C1DA814C60072C833 /* Exo2-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Exo2-Regular.otf"; path = "Fonts/Exo2-Regular.otf"; sourceTree = "<group>"; };
+		CCE7722D1DA814C60072C833 /* Exo2-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Exo2-Thin.otf"; path = "Fonts/Exo2-Thin.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				CCE772161DA807E40072C833 /* AppDelegate.swift */,
-				CCE772181DA807E40072C833 /* ViewController.swift */,
+				CCE772281DA8105A0072C833 /* ControlTVC.swift */,
 				CCE7721A1DA807E40072C833 /* Main.storyboard */,
+				CCE772321DA814D20072C833 /* Fonts */,
 				CCE7721D1DA807E40072C833 /* Assets.xcassets */,
 				CCE7721F1DA807E40072C833 /* LaunchScreen.storyboard */,
 				CCE772221DA807E40072C833 /* Info.plist */,
 			);
 			path = AllControls;
+			sourceTree = "<group>";
+		};
+		CCE772321DA814D20072C833 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CCE7722A1DA814C60072C833 /* Exo2-Bold.otf */,
+				CCE7722B1DA814C60072C833 /* Exo2-ExtraLight.otf */,
+				CCE7722C1DA814C60072C833 /* Exo2-Regular.otf */,
+				CCE7722D1DA814C60072C833 /* Exo2-Thin.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE772311DA814C60072C833 /* Exo2-Thin.otf in Resources */,
+				CCE7722E1DA814C60072C833 /* Exo2-Bold.otf in Resources */,
 				CCE772211DA807E40072C833 /* LaunchScreen.storyboard in Resources */,
+				CCE7722F1DA814C60072C833 /* Exo2-ExtraLight.otf in Resources */,
 				CCE7721E1DA807E40072C833 /* Assets.xcassets in Resources */,
+				CCE772301DA814C60072C833 /* Exo2-Regular.otf in Resources */,
 				CCE7721C1DA807E40072C833 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCE772191DA807E40072C833 /* ViewController.swift in Sources */,
 				CCE772171DA807E40072C833 /* AppDelegate.swift in Sources */,
+				CCE772291DA8105A0072C833 /* ControlTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				CCE772271DA807E40072C833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
