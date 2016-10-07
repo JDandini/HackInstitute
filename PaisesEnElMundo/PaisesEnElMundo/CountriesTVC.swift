@@ -31,6 +31,12 @@ class CountriesTVC: UITableViewController {
                 let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
                 alertError.addAction(okAction)
                 self.present(alertError, animated: true, completion: nil)
+            }else if let e = error{
+                KVNProgress.dismiss()
+                let alertError = UIAlertController(title: "OH NO!", message: e.localizedDescription, preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alertError.addAction(okAction)
+                self.present(alertError, animated: true, completion: nil)
             }else if let rawArray = countriesArray{
                 // no hay error entonces llenamos arreglo de paises
                 for dicCountry in rawArray{
@@ -40,12 +46,6 @@ class CountriesTVC: UITableViewController {
                 }
                 self.tableView.reloadData()
                 KVNProgress.showSuccess(withStatus: "¡Exito!")
-            }else if let e = error{
-                KVNProgress.dismiss()
-                let alertError = UIAlertController(title: "OH NO!", message: e.localizedDescription, preferredStyle: .alert)
-                let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-                alertError.addAction(okAction)
-                self.present(alertError, animated: true, completion: nil)
             }
         }
     }
