@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>PickerView</string>
+		<key>subtitle</key>
+		<string>Muestra de cómo funciona un PickerView, cambios en una label y alertas</string>
+		<key>image</key>
+		<string>picker</string>
+		<key>segue</key>
+		<string>Picker</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Segmented Control</string>
+		<key>subtitle</key>
+		<string>Muestra de cómo funciona un segmented control, Sliders y switches</string>
+		<key>image</key>
+		<string>segmented</string>
+		<key>segue</key>
+		<string>Segmented</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Progress View</string>
+		<key>subtitle</key>
+		<string>Muestra de cómo funciona un Progress View</string>
+		<key>image</key>
+		<string>progress</string>
+		<key>segue</key>
+		<string>Progress</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>TextView</string>
+		<key>subtitle</key>
+		<string>Muestra de cómo funciona un TextView y un TextField, haciendo uso de un scroll view</string>
+		<key>image</key>
+		<string>text</string>
+		<key>segue</key>
+		<string>TextView</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>WebView</string>
+		<key>subtitle</key>
+		<string>Muestra de cómo cargar un webview dentro de la aplicación </string>
+		<key>image</key>
+		<string>web</string>
+		<key>segue</key>
+		<string>WebView</string>
+	</dict>
+</array>
+</plist>

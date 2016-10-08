@@ -1,0 +1,6 @@
+framework module MSCellAccessory {
+  umbrella header "MSCellAccessory-umbrella.h"
+
+  export *
+  module * { export * }
+}

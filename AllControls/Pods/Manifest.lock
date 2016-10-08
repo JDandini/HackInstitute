@@ -1,0 +1,17 @@
+PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - MSCellAccessory (1.1.2)
+
+DEPENDENCIES:
+  - Colours
+  - MSCellAccessory
+
+SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  MSCellAccessory: 8265f3cd2386c1f372da00232472605ab11426e4
+
+PODFILE CHECKSUM: e2d624393bcac5dcabe3c878671531ecc6f2d7bc
+
+COCOAPODS: 1.1.0.rc.2
